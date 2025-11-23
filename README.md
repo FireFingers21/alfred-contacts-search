@@ -2,6 +2,8 @@
 
 Search & view fields in Contacts cards with Alfred
 
+[⤓ Install from the Alfred Gallery](https://alfred.app/workflows/firefingers21/contacts-search/)
+
 ## Setup
 
 This workflow works with Alfred's [Contacts Viewer](https://www.alfredapp.com/help/features/contacts/#viewer). Enable it by checking `Open Contacts in Alfred` in the Features > Contacts > Contacts preferences.
