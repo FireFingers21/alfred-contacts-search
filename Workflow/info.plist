@@ -593,7 +593,7 @@ Custom URL Handler</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2025.9</string>
+	<string>2025.11</string>
 	<key>webaddress</key>
 	<string>https://github.com/FireFingers21/alfred-contacts-search</string>
 </dict>
