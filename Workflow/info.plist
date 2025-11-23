@@ -108,11 +108,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>38</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1835008</integer>
+				<integer>0</integer>
 				<key>hotstring</key>
-				<string>J</string>
+				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -522,6 +522,32 @@ Custom URL Handler</string>
 			<string>checkbox</string>
 			<key>variable</key>
 			<string>useNotes</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>1</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>First Name</string>
+						<string>0</string>
+					</array>
+					<array>
+						<string>Last Name</string>
+						<string>1</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Choose how to alphabetically sort Contacts</string>
+			<key>label</key>
+			<string>Sort By</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>sortBy</string>
 		</dict>
 		<dict>
 			<key>config</key>

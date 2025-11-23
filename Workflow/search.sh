@@ -17,7 +17,7 @@ jq -cs \
    --argjson useEmail "${useEmail}" \
    --argjson useStreet "${useStreet}" \
    --argjson useNotes "${useNotes}" \
-   --argjson orderBy "${order_by}" \
+   --argjson sortBy "${sortBy}" \
 '{
     "items": (if (length > 0) then walk(if . == "" then null end) |
     map(.[] | select(.ZUNIQUEID | endswith("ABPerson")) |
@@ -39,7 +39,7 @@ jq -cs \
                 (if $useStreet == 1 then .ZSTREET else empty end),
                 (if $useNotes == 1 then .ZTEXT else empty end)
             ] | map(select(.)) | join(" "),
-            "sortindex": (if $title != "No Name" then (if $orderBy == 1 then $title else .ZSORTINGLASTNAME end) else "~" end)
+            "sortindex": (if $title != "No Name" then (if $sortBy == 0 then $title else .ZSORTINGLASTNAME end) else "~" end)
     	}
     ) | sort_by(.sortindex) else
         [{ "title": "Search Contacts...","subtitle": "No contacts found","valid": "false" }]
