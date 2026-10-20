@@ -302,12 +302,12 @@ This workflow works with Alfred's [Contacts Viewer](https://www.alfredapp.com/he
 
 Search Contacts details via the `cs` keyword. Type to filter.
 
-![Using the Search Contacts keyword](images/about/keyword.png)
+![Using the cs keyword](images/about/keyword.png)
 
 * &lt;kbd&gt;↩&lt;/kbd&gt; View Contact card.
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Open Contact card in Contacts app.
 
-Contacts are always searchable by Full Name and Nickname, while searching by Job Title, Organization, Phone Number, Email Address, Street Address, and Notes is configurable from the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+Contacts are always searchable by Full Name and Nickname, while searching by Job Title, Organization, Phone Numbers, Email Addresses, Street Addresses, and Notes is configurable from the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
 
 ![Filtering Contacts results](images/about/filter.png)
 
@@ -404,7 +404,7 @@ Custom URL Handler</string>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>Keyword for searching Contacts.</string>
 			<key>label</key>
 			<string>Contacts Keyword</string>
 			<key>type</key>
@@ -458,7 +458,7 @@ Custom URL Handler</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Phone Number</string>
+				<string>Phone Numbers</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -477,7 +477,7 @@ Custom URL Handler</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Email Address</string>
+				<string>Email Addresses</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -496,7 +496,7 @@ Custom URL Handler</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Street Address</string>
+				<string>Street Addresses</string>
 			</dict>
 			<key>description</key>
 			<string></string>
